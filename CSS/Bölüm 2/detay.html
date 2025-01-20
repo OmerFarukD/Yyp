@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        .title .info{
+            color: darkcyan;
+            background-color: beige;
+        }
+
+        .title.info{
+            color: red;
+        }
+
+        .title{
+            background-color: #f4aeba;
+        }
+
+        .info{
+           background-color: blueviolet;
+        }
+
+
+        a{
+            color: blue;
+            font-size: 25px;
+        }
+
+
+        ul>li>a{
+            color: red;
+            font-size: 20px;
+        }
+
+
+        ul>li>a:hover{
+            color: yellow;
+            background-color: red;
+        }
+
+        a:hover{
+            color: yellow;
+            background-color: black;
+        }
+
+
+        h2.title :hover{
+            font-size: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: chocolate;
+        }
+
+    </style>
+</head>
+<body>
+    
+<h1 class="title info">Lorem ipsum dolor sit amet.</h1>
+<h2 class="title">
+
+    H2 title metni ->
+    <span class="info"> H2 içerisindeki span info classı </span>
+</h2>
+
+<h2 class="title subtitle">H2 içerisindeki subtitle
+
+
+<span class="subtitle"> H2 içerisindeki span subtitle classı</span>
+
+</h2>
+
+
+<ul>
+    <li><a href="">Lorem, ipsum dolor.</a></li>
+    <li><a href="">Quis, assumenda blanditiis.</a></li>
+    <li><a href="">Architecto, ullam quam?</a></li>
+</ul>
+
+<a href="">Bağlantıya git.</a>
+
+</body>
+</html>

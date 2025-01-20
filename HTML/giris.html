@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giriş bölümü</title>
+
+    <style>
+        .paragraf{
+            background-color: blue;
+        }
+
+
+        #p1{
+            font-size: x-large;
+            font-style: italic;
+            color: brown;
+        }
+
+
+        #p2{
+            font-size: small;
+            font-family: 'Times New Roman', Times, serif;
+            color: darkgoldenrod;
+        }
+
+    </style>
+</head>
+<body>
+    
+    HTML(Hypertext markup language) web sayfasının yapısını tanımlama ve içeriğini organize etmek için kullanılan bir yapıdır.
+    Html genellikle css ile beraber kullanılır.
+
+
+    <h1>Başlık 1 </h1>
+    <h2>Başlık 2 </h2>
+    <h3>Başlık 3 </h3>
+    <h4>Başlık 4 </h4>
+    <h5>Başlık 5 </h5>
+    <h6>Başlık 6 </h6>
+
+<form>
+    <input type="text" name="username"  placeholder="Kullanıcı adı">
+    <input type="password" name="password" placeholder="Parola">
+    <input type="radio" name="gender" value="male"> Erkek
+    <input type="radio" name="gender" value="female"> Kadın
+
+    <button type="submit">Kayıt ol</button>
+    <button type="reset"> Resetle </button>
+
+</form>
+
+<hr>
+
+<form>
+    <div>
+        <label>Kullanıcı adı</label>
+        <input type="text" name="username">
+    </div>
+
+    <div>
+        <label>Parola</label>
+        <input type="password" name="parola">
+    </div>
+
+
+    <div>
+        <label >Cinsiyet: </label>
+        <input type="radio" name="gender" value="male"> Erkek
+        <input type="radio" name="gender" value="female"> Kadın
+    </div>
+
+
+    <div>
+        <label>Ülke Seçiniz:</label>
+        <select name="country" >
+            <option value="türkiye">Türkiye</option>
+            <option value="Almanya">Almanya</option>
+            <option value="Fransa">Fransa</option>
+            <option value="Suriye">Suriye</option>
+            <option value="Yunanistan">Yunanistan</option>
+        </select>
+    </div>
+
+    <div>
+        <button type="submit">Kayıt ol</button>
+        <button type="reset"> Resetle </button>
+    </div>
+</form>
+
+<!-- Merhaba -->
+
+<!-- br etiketi satırı sonlandırmak için kullanılır.-->
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, ratione? <br/>
+Lorem ipsum dolor sit amet. <br>
+
+<h3>İtalik yazı</h3>
+<em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, ullam.</em>
+
+<h3>Strong etiketi.</h3>
+<strong>Kullanıcı adı : </strong> DerinDünya
+
+
+<h3>class ve id attribute</h3>
+
+<p>
+Html etiketlerine göre belirli özellikler ekleme veya belirli öğelere stril ve davranış eklemek içim kullanılır.
+
+</p>
+<p class="paragraf"  id="p1" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, accusantium.</p>
+<p class="paragraf" id="p2" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, possimus.</p>
+
+
+</body>
+</html>

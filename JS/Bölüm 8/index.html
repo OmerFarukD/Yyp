@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonksiyonlar</title>
+</head>
+<body>
+    <h1>Fonksiyon Nedir?</h1>
+    <p>
+        Fonksiyonlar, belirli bir görevi gerçekleştiren kod bloklarıdır. Fonksiyonlar sayesinde kod tekrarını azaltır 
+        ve kodu daha güvenli hale getiririz.
+    </p>
+
+
+    <h2>Arrow Function yazım kuralları</h2>
+    <h3>
+        const toplaArrow = (a,b)=> a+b;
+    </h3>
+
+    <p>
+        Tanımlanan fonksiyon içinde yazılacak kod satır sayısı 1 ise süslü
+        parantez kullanmamıza gerek yoktur.
+    </p>
+
+    <h3>
+        const toplaArrow1 = (a,b)=>{
+            console.log("toplaArrow1 çalıştı");
+            return a + b;
+        }
+    </h3>
+
+    <p>
+        Tanımlanan fonksiyon içinde yazılacak kod satır sayısı 1 den fazla
+         ise süslü
+        parantez kesinlikle kullanmamız gerekir. 
+    </p>
+
+    <h3>const kareAl2 = x => x**2;</h3>
+    <p>Tek 1 parametre varsa parantez kullanmak zorunda değiliz.</p>
+
+    <h3>const merhabaDe = ()=> "Merhaba";</h3>
+    <p>Eğer tanımlanan fonksiyon parametresiz bir fonksiyon ise () kullanmak zorundayız.</p>
+
+    <script src="main.js"></script>
+</body>
+</html>
