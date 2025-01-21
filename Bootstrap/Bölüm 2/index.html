@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    
+    <title>Margin, padding ve border kullanımı</title>
+</head>
+<body>
+
+<div class="bg-secondary text-warning">
+    <p>m-0 : Tüm margin değerlerini sıfırlar</p>
+    <p>m-1 ile m-5: Küçükten büyüğe doğru margin</p>
+    <p>mt-(1,5): Üstten boşluk bırakır.</p>
+    <p>mb-(1,5): Alttan boşluk bırakır.</p>
+    <p>ml-(1,5): Soldan boşluk bırakır.</p>
+    <p>mr-(1,5): Sağdan boşluk bırakır.</p>
+    <p>mx-(1,5): Sağdan ve soldan boşluk bırakır.</p>
+    <p>my-(1,5): Üstten ve Alttan boşluk bırakır.</p>
+</div>
+    <hr>
+
+    <div class="bg-light text-danger">
+        <p>p-0 : Tüm padding değerlerini sıfırlar</p>
+        <p>p-1 ile m-5: Küçükten büyüğe doğru margin</p>
+        <p>pt-(1,5): Üstten boşluk bırakır.</p>
+        <p>pb-(1,5): Alttan boşluk bırakır.</p>
+        <p>pl-(1,5): Soldan boşluk bırakır.</p>
+        <p>pr-(1,5): Sağdan boşluk bırakır.</p>
+        <p>px-(1,5): Sağdan ve soldan boşluk bırakır.</p>
+        <p>py-(1,5): Üstten ve Alttan boşluk bırakır.</p>
+    
+    </div>
+
+
+<div style="margin: 48px;" class="bg-primary text-white">
+    Bu kutunun çevresinde m-5 margin uygulandı
+</div>
+
+<div class="bg-primary text-white mt-3">
+    Bu kutunun üst kısmında m-3 margin uygulandı
+</div>
+
+<div class="bg-primary text-white my-3">
+    Bu kutunun üst kısmında ve alt kısmında m-3 margin uygulandı
+</div>
+
+
+<hr>
+<div class="bg-warning text-dark p-4">
+    Bu kutu içerisinde padding eklendi p-4
+</div>
+
+<div class="bg-info px-5">
+Bu kutunun sağ ve sol kenarlarında padding var px-5
+</div>
+
+<div class="bg-primary m-5 p-5">
+    Bu kutu içerisinde hem m-5 hemde p-5 uygulanmıştır
+</div>
+
+<div class="bg-secondary mb-5 mx-auto p-4" style="width: 50%;">
+    Bu kutu yatayda ortalanmış ve iç boşluk eklenmiştir.
+</div>
+
+
+<div class="bg-secondary mx-auto p-lg-4 p-md-3" style="width: 50%;">
+    Bu kutu yatayda ortalanmış ve iç boşluk eklenmiştir.
+</div>
+
+<hr>
+
+<div class="bg-info text-primary border border-dark border-3 p-2 m-3 ">
+    Tüm kenarlarda border Kullanıldı
+</div>
+
+
+<div class="bg-info text-primary border border-dark border-3 rounded-pill p-2 m-3 ">
+    Tüm kenarlarda border kullanıldı Kapsül şeklinde
+</div>
+
+<div class="bg-info text-primary border border-dark border-3 rounded-circle p-2 m-3 ">
+    Tüm kenarlarda border kullanıldı Yuvarlak şeklinde
+</div>
+
+<div class="bg-info text-primary border border-dark border-3 rounded p-2 m-3 ">
+    Tüm kenarlarda border kullanıldı hafif Yuvarlak şeklinde
+</div>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script> 
+</body>
+</html>
